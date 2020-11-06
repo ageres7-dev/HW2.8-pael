@@ -56,15 +56,47 @@
 		3BBDB38525556A8900F0B765 /* HW2.8-pael */ = {
 			isa = PBXGroup;
 			children = (
-				3BBDB38625556A8900F0B765 /* AppDelegate.swift */,
-				3BBDB38825556A8900F0B765 /* SceneDelegate.swift */,
-				3BBDB38A25556A8900F0B765 /* ViewController.swift */,
-				3BBDB38C25556A8900F0B765 /* Main.storyboard */,
-				3BBDB38F25556A8C00F0B765 /* Assets.xcassets */,
-				3BBDB39125556A8C00F0B765 /* LaunchScreen.storyboard */,
-				3BBDB39425556A8C00F0B765 /* Info.plist */,
+				3BBDB39C25556AEA00F0B765 /* Supporting Files */,
+				3BBDB39B25556ADB00F0B765 /* Models */,
+				3BBDB39D25556B1C00F0B765 /* View Controllers */,
+				3BBDB39E25556B3500F0B765 /* Storyboards */,
 			);
 			path = "HW2.8-pael";
+			sourceTree = "<group>";
+		};
+		3BBDB39B25556ADB00F0B765 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BBDB39C25556AEA00F0B765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBDB38625556A8900F0B765 /* AppDelegate.swift */,
+				3BBDB38825556A8900F0B765 /* SceneDelegate.swift */,
+				3BBDB38F25556A8C00F0B765 /* Assets.xcassets */,
+				3BBDB39425556A8C00F0B765 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BBDB39D25556B1C00F0B765 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BBDB38A25556A8900F0B765 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3BBDB39E25556B3500F0B765 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3BBDB38C25556A8900F0B765 /* Main.storyboard */,
+				3BBDB39125556A8C00F0B765 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HW2.8-pael/Info.plist";
+				INFOPLIST_FILE = "HW2.8-pael/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HW2.8-pael/Info.plist";
+				INFOPLIST_FILE = "HW2.8-pael/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
