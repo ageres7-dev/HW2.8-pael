@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B02B06925570847007B5778 /* ResultFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02B06725570846007B5778 /* ResultFunction.swift */; };
 		3B02B06A25570847007B5778 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02B06825570846007B5778 /* Answer.swift */; };
-		3B02B06D25570A22007B5778 /* ResultScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B02B06C25570A22007B5778 /* ResultScreen.storyboard */; };
+		3B02B06D25570A22007B5778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B02B06C25570A22007B5778 /* Main.storyboard */; };
 		3B02B07425570AD8007B5778 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02B07325570AD8007B5778 /* ResultViewController.swift */; };
 		3BBDB38725556A8900F0B765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDB38625556A8900F0B765 /* AppDelegate.swift */; };
 		3BBDB38925556A8900F0B765 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDB38825556A8900F0B765 /* SceneDelegate.swift */; };
@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		3B02B06725570846007B5778 /* ResultFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultFunction.swift; sourceTree = "<group>"; };
 		3B02B06825570846007B5778 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
-		3B02B06C25570A22007B5778 /* ResultScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResultScreen.storyboard; sourceTree = "<group>"; };
+		3B02B06C25570A22007B5778 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3B02B07325570AD8007B5778 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		3BBDB38325556A8900F0B765 /* HW2.8-pael.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW2.8-pael.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBDB38625556A8900F0B765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		3BBDB39E25556B3500F0B765 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				3B02B06C25570A22007B5778 /* ResultScreen.storyboard */,
+				3B02B06C25570A22007B5778 /* Main.storyboard */,
 				3BBDB39125556A8C00F0B765 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -179,7 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B02B06D25570A22007B5778 /* ResultScreen.storyboard in Resources */,
+				3B02B06D25570A22007B5778 /* Main.storyboard in Resources */,
 				3BBDB39325556A8C00F0B765 /* LaunchScreen.storyboard in Resources */,
 				3BBDB39025556A8C00F0B765 /* Assets.xcassets in Resources */,
 			);
@@ -339,6 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "HW2.8-pael/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -357,6 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "HW2.8-pael/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

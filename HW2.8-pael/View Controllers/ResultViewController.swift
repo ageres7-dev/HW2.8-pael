@@ -21,17 +21,21 @@ class ResultViewController: UIViewController {
     
     var rawTestResult: Answer!
 //    var calculatedTestResult: String = ""
-    var calculatedTestResult = Result()
+    var result = Result(shortInfo: "",
+                                      picture: "",
+                                      characteristic: "")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         pictureResult.layer.cornerRadius = 15
         
+//        result.getResult(text: calulateResultTest(from: rawTestResult))
+        
+        
         
         // = calulateResultTest(rawTestResult: rawTestResult)
         
-//        characteristicLabel.text = Result.getResult(text: calculatedTestResult).characteristic
-        
+        characteristicLabel.text = result.characteristic
     }
     
     
@@ -54,7 +58,7 @@ class ResultViewController: UIViewController {
      }
      
      */
-    private func calulateResultTest(rawTestResult: Answer) -> String {
+    private func calulateResultTest(from: Answer) -> String {
         var result = ""
         
         result += identifyFrom(characters: ["P", "p"], and: rawTestResult.producer)
