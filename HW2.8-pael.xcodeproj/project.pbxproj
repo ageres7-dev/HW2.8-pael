@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B02B06925570847007B5778 /* ResultFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02B06725570846007B5778 /* ResultFunction.swift */; };
+		3B02B06A25570847007B5778 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02B06825570846007B5778 /* Answer.swift */; };
 		3BBDB38725556A8900F0B765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDB38625556A8900F0B765 /* AppDelegate.swift */; };
 		3BBDB38925556A8900F0B765 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDB38825556A8900F0B765 /* SceneDelegate.swift */; };
 		3BBDB38B25556A8900F0B765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDB38A25556A8900F0B765 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B02B06725570846007B5778 /* ResultFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultFunction.swift; sourceTree = "<group>"; };
+		3B02B06825570846007B5778 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		3BBDB38325556A8900F0B765 /* HW2.8-pael.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW2.8-pael.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBDB38625556A8900F0B765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BBDB38825556A8900F0B765 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				3BBDB3A525556D6D00F0B765 /* Question.swift */,
+				3B02B06825570846007B5778 /* Answer.swift */,
+				3B02B06725570846007B5778 /* ResultFunction.swift */,
 				3BBDB3A825556D9100F0B765 /* Result.swift */,
 			);
 			path = Models;
@@ -187,11 +193,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BBDB3A925556D9100F0B765 /* Result.swift in Sources */,
+				3B02B06925570847007B5778 /* ResultFunction.swift in Sources */,
 				3BBDB3A625556D6D00F0B765 /* Question.swift in Sources */,
 				3BBDB38B25556A8900F0B765 /* ViewController.swift in Sources */,
 				3BBDB3A225556D0D00F0B765 /* DataManager.swift in Sources */,
 				3BBDB38725556A8900F0B765 /* AppDelegate.swift in Sources */,
 				3BBDB38925556A8900F0B765 /* SceneDelegate.swift in Sources */,
+				3B02B06A25570847007B5778 /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
