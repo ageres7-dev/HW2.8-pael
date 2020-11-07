@@ -76,15 +76,16 @@ class ResultViewController: UIViewController {
             
             label.text = getСharacter(number: label.tag, from: result)
             
-            
-//            switch label.tag {
-//            case 0: label.text = getСharacter(number: 1, from: paelKey)
-//            case 1: label.text = getСharacter(number: 2, from: paelKey)
-//            default:
-//                break
-//            }
-            
-            
+            switch label.tag {
+            case 0:
+                label.text? += ": \(rawTestResult.producer)"
+            case 1:
+                label.text? += ": \(rawTestResult.administrator)"
+            case 2:
+                label.text? += ": \(rawTestResult.entrepreneur)"
+            default:
+                label.text? += ": \(rawTestResult.integrator)"
+            }
         }
     }
     
