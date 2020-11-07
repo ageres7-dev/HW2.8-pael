@@ -6,7 +6,7 @@
 //
 
 extension Result {
-  func getResult(text: String) -> Result {
+func getResult(text: String) -> Result {
     switch text {
     case "Paei":
       return Result(
@@ -92,6 +92,8 @@ extension Result {
         picture: "12",
         characteristic: "Тренер малой лиги отлично умеет формировать и сплочать команду, которую прекрасно координирует для достижения результатов. Его не интересуют внешние условия работы компании, и он не настаивает на соблюдении формальностей. Он поощряет и поддерживает тех, кто делает свое дело."
       )
+        
+        
     }
   }
 }

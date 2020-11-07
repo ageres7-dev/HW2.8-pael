@@ -104,6 +104,15 @@
                     <navigationItem key="navigationItem" id="LHO-3N-l8C">
                         <barButtonItem key="rightBarButtonItem" title="Готово" style="done" id="WYf-N8-Zhw"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="administratorLabel" destination="s6X-QI-zVR" id="Mru-gX-chZ"/>
+                        <outlet property="characteristicLabel" destination="3Wi-8n-xbm" id="DqX-8f-lLb"/>
+                        <outlet property="entrepreneurLabel" destination="Upj-7q-Azj" id="9pS-TR-Smx"/>
+                        <outlet property="integratorLabel" destination="WMh-zW-2Ar" id="DWC-bS-KOM"/>
+                        <outlet property="pictureResult" destination="w3t-aZ-RCO" id="eJz-5e-AFf"/>
+                        <outlet property="producerLabel" destination="cvr-Mq-kb5" id="D0L-KL-yK8"/>
+                        <outlet property="shortInfoLabel" destination="wjw-VY-04r" id="7B1-cS-pqe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MV8-Dz-ugC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
