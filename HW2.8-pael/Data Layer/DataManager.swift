@@ -7,3 +7,15 @@
 
 import Foundation
 
+class DataManager {
+    
+    static var shared = DataManager()
+    
+    let qualityOfProducers = ["Отзывчивый", "Харизматичный"]
+    let qualityOfAdministrators = ["Вовлеченный", "Анализирующий"]
+    let qualityOfEntrepreneurs = ["Сомневающийся", "Чувствующий"]
+    let qualityOfIntegrators = ["Яркий", "Прямой"]
+    
+    private init() {}
+    
+}
