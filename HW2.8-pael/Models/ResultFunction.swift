@@ -6,7 +6,7 @@
 //
 
 extension Result {
-func getResult(text: String) -> Result {
+static func getResult(text: String) -> Result {
     switch text {
     case "Paei":
       return Result(

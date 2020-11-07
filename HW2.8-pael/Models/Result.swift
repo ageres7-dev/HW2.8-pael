@@ -10,11 +10,11 @@ struct Result {
     let picture: String
     let characteristic: String
     
-//    init(shortInfo: String = "", picture: String = "", characteristic: String = "") {
-//        self.shortInfo = shortInfo
-//        self.picture = picture
-//        self.characteristic = characteristic
-//    }
+    init(shortInfo: String = "", picture: String = "", characteristic: String = "") {
+        self.shortInfo = shortInfo
+        self.picture = picture
+        self.characteristic = characteristic
+    }
 }
 
 

@@ -12,30 +12,48 @@ class ResultViewController: UIViewController {
     @IBOutlet var pictureResult: UIImageView!
     @IBOutlet var shortInfoLabel: UILabel!
     
-    @IBOutlet var producerLabel: UILabel!
-    @IBOutlet var administratorLabel: UILabel!
-    @IBOutlet var entrepreneurLabel: UILabel!
-    @IBOutlet var integratorLabel: UILabel!
+//    @IBOutlet var producerLabel: UILabel!
+//    @IBOutlet var administratorLabel: UILabel!
+//    @IBOutlet var entrepreneurLabel: UILabel!
+//    @IBOutlet var integratorLabel: UILabel!
     
     @IBOutlet var characteristicLabel: UILabel!
     
-    var rawTestResult: Answer!
+    
+    
+    @IBOutlet var paelLabels: [UILabel]!
+    //    var rawTestResult: Answer!
+    var rawTestResult = Answer(producer: 18, administrator: 27, entrepreneur: 34, integrator: 41)
+    
 //    var calculatedTestResult: String = ""
-    var result = Result(shortInfo: "",
-                                      picture: "",
-                                      characteristic: "")
+//    var result = Result(shortInfo: "",
+//                                      picture: "",
+//                                      characteristic: "")
+    
+    var result: Result?
+    var paelKey = ""
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         pictureResult.layer.cornerRadius = 15
         
-//        result.getResult(text: calulateResultTest(from: rawTestResult))
+        paelKey = calulateResultTest(from: rawTestResult)
+        result = Result.getResult(text: paelKey)
+        
+        
+       
+        
+        
+//        result = result.getResult(text: calulateResultTest(from: rawTestResult))
         
         
         
         // = calulateResultTest(rawTestResult: rawTestResult)
+        shortInfoLabel.text = result?.shortInfo
+        characteristicLabel.text = result?.characteristic
+        pictureResult.image = UIImage(named: result?.picture ?? "default")
         
-        characteristicLabel.text = result.characteristic
     }
     
     
@@ -78,7 +96,10 @@ class ResultViewController: UIViewController {
     }
     
     
-    
+    private func getСharacter(number: Int, from string: String) -> String {
+        let index = string.index(string.startIndex, offsetBy: number)
+         return String(string[index])
+    }
     
     
     

@@ -47,19 +47,19 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a : 14" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6X-QI-zVR">
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a : 14" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6X-QI-zVR">
                                                 <rect key="frame" x="0.0" y="42.5" width="96" height="42.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E : 32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Upj-7q-Azj">
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E : 32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Upj-7q-Azj">
                                                 <rect key="frame" x="0.0" y="85" width="96" height="43"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- : 43" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMh-zW-2Ar">
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- : 43" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMh-zW-2Ar">
                                                 <rect key="frame" x="0.0" y="128" width="96" height="42.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                 <nil key="textColor"/>
@@ -105,13 +105,13 @@
                         <barButtonItem key="rightBarButtonItem" title="Готово" style="done" id="WYf-N8-Zhw"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="administratorLabel" destination="s6X-QI-zVR" id="Mru-gX-chZ"/>
                         <outlet property="characteristicLabel" destination="3Wi-8n-xbm" id="DqX-8f-lLb"/>
-                        <outlet property="entrepreneurLabel" destination="Upj-7q-Azj" id="9pS-TR-Smx"/>
-                        <outlet property="integratorLabel" destination="WMh-zW-2Ar" id="DWC-bS-KOM"/>
                         <outlet property="pictureResult" destination="w3t-aZ-RCO" id="eJz-5e-AFf"/>
-                        <outlet property="producerLabel" destination="cvr-Mq-kb5" id="D0L-KL-yK8"/>
                         <outlet property="shortInfoLabel" destination="wjw-VY-04r" id="7B1-cS-pqe"/>
+                        <outletCollection property="paelLabels" destination="Upj-7q-Azj" collectionClass="NSMutableArray" id="trn-Bc-SZb"/>
+                        <outletCollection property="paelLabels" destination="WMh-zW-2Ar" collectionClass="NSMutableArray" id="qtL-gR-E9A"/>
+                        <outletCollection property="paelLabels" destination="s6X-QI-zVR" collectionClass="NSMutableArray" id="fxW-Kg-sHs"/>
+                        <outletCollection property="paelLabels" destination="cvr-Mq-kb5" collectionClass="NSMutableArray" id="glw-gG-LhQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MV8-Dz-ugC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
