@@ -41,15 +41,8 @@ class ResultViewController: UIViewController {
         paelKey = calulateResultTest(from: rawTestResult)
         result = Result.getResult(text: paelKey)
         
-        
-       
-        
-        
 //        result = result.getResult(text: calulateResultTest(from: rawTestResult))
         
-        
-        
-        // = calulateResultTest(rawTestResult: rawTestResult)
         shortInfoLabel.text = result?.shortInfo
         characteristicLabel.text = result?.characteristic
         pictureResult.image = UIImage(named: result?.picture ?? "default")
