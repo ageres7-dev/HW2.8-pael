@@ -43,7 +43,7 @@ extension Result {
                 сплотить команду.
                 """
             )
-         case ""
+         case "pAei"
         default:
             return Result(
                 shortInfo: "",
