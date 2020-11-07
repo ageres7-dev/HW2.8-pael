@@ -10,7 +10,7 @@ extension Result {
         switch text {
         case "pAei":
             return Result(
-                shortInfo: "",
+                shortInfo: "Прибыль",
                 picture: "",
                 characteristic: ""
             )

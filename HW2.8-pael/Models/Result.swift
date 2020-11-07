@@ -11,19 +11,6 @@ struct Result {
     let characteristic: String
 }
 
-struct Anawer {
-    let text: String
-    let type: ManagmentStyle
-}
-
-
-enum ManagmentStyle {
-    case producer
-    case administrator
-    case entrepreneur
-    case integrator
-    
-}
 
 enum Paei: String {
     case largeP = "P"
