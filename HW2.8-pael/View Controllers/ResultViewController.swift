@@ -19,9 +19,8 @@ class ResultViewController: UIViewController {
     
     @IBOutlet var characteristicLabel: UILabel!
     
-    
-    
     @IBOutlet var paelLabels: [UILabel]!
+    
     //    var rawTestResult: Answer!
     var rawTestResult = Answer(producer: 18, administrator: 27, entrepreneur: 34, integrator: 41)
     
@@ -47,6 +46,8 @@ class ResultViewController: UIViewController {
         characteristicLabel.text = result?.characteristic
         pictureResult.image = UIImage(named: result?.picture ?? "default")
         
+        setPaelLabels(from: paelKey)
+        
     }
     
     
@@ -69,6 +70,24 @@ class ResultViewController: UIViewController {
      }
      
      */
+    
+    private func setPaelLabels(from result: String) {
+        paelLabels.forEach { (label) in
+            
+            label.text = getСharacter(number: label.tag, from: result)
+            
+            
+//            switch label.tag {
+//            case 0: label.text = getСharacter(number: 1, from: paelKey)
+//            case 1: label.text = getСharacter(number: 2, from: paelKey)
+//            default:
+//                break
+//            }
+            
+            
+        }
+    }
+    
     private func calulateResultTest(from: Answer) -> String {
         var result = ""
         
@@ -88,7 +107,7 @@ class ResultViewController: UIViewController {
         return resultString
     }
     
-    
+    //MARK: - Вытаскиваем нужный символ из строки
     private func getСharacter(number: Int, from string: String) -> String {
         let index = string.index(string.startIndex, offsetBy: number)
          return String(string[index])
