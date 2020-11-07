@@ -1,24 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Start Screen View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="StartScreenViewController" customModule="HW2_8_pael" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="98B-Ka-bQS">
+                                <rect key="frame" x="16" y="20" width="343" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="98B-Ka-bQS" secondAttribute="height" multiplier="343:200" id="lko-AN-Pgr"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="OxJ-1t-4AD">
+                                <rect key="frame" x="16" y="240" width="343" height="183"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OxJ-1t-4AD" secondAttribute="height" multiplier="343:183" id="Dw7-VL-yvD"/>
+                                </constraints>
+                                <mutableString key="text">В своей книге "Идеальный руководитель" Ицхак Адизес утверждает, что у менеджмента есть четыре функции, от успешной реализации которых зависит благополучие организации. 
+4-е функции:
+- Производство результатов (Р)
+- Администрирование (A) 
+- Предпринимательство (E) 
+- Интеграция (I)</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afo-Hb-9mt">
+                                <rect key="frame" x="99" y="519" width="178" height="36"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title=" Протестируй себя ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="afo-Hb-9mt" secondAttribute="trailing" constant="98" id="7gx-WM-RIE"/>
+                            <constraint firstItem="98B-Ka-bQS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7sU-yU-9GF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OxJ-1t-4AD" secondAttribute="trailing" constant="16" id="95Y-MB-5us"/>
+                            <constraint firstItem="afo-Hb-9mt" firstAttribute="top" secondItem="OxJ-1t-4AD" secondAttribute="bottom" constant="96" id="Bnn-BN-hPj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="98B-Ka-bQS" secondAttribute="trailing" constant="16" id="KmQ-Tx-Y3Z"/>
+                            <constraint firstItem="afo-Hb-9mt" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="178:667" id="N9Q-uw-Bo2"/>
+                            <constraint firstItem="afo-Hb-9mt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="TVQ-vp-aNF"/>
+                            <constraint firstItem="OxJ-1t-4AD" firstAttribute="top" secondItem="98B-Ka-bQS" secondAttribute="bottom" constant="20" id="WcS-JD-nlE"/>
+                            <constraint firstItem="OxJ-1t-4AD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="f1y-7n-Srd"/>
+                            <constraint firstItem="OxJ-1t-4AD" firstAttribute="top" secondItem="98B-Ka-bQS" secondAttribute="bottom" constant="20" id="hzl-GP-7ap"/>
+                            <constraint firstItem="98B-Ka-bQS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="tAY-9s-vw1"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstMainPicture" destination="98B-Ka-bQS" id="7ZB-Qy-gH8"/>
+                        <outlet property="startButton" destination="afo-Hb-9mt" id="7K5-2c-SfZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="349.60000000000002" y="68.815592203898049"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
