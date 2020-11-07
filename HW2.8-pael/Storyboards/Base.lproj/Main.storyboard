@@ -32,13 +32,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5q1-Zk-zay">
-                                <rect key="frame" x="60" y="614" width="48" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="e3v-9R-eDR">
                                 <rect key="frame" x="20" y="414.33333333333331" width="388" height="165.33333333333331"/>
                                 <subviews>
@@ -114,7 +107,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hyA-JD-cwl"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hyA-JD-cwl"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScT-K1-aDB">
@@ -122,7 +115,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xNB-qb-vxB"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xNB-qb-vxB"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0K-8O-hbR">
@@ -130,7 +123,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aoQ-kh-0cg"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aoQ-kh-0cg"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCf-2B-qbz">
@@ -138,7 +131,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VhR-gv-G8f"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VhR-gv-G8f"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -151,7 +144,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FYb-fy-ga3"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FYb-fy-ga3"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aP-ja-lf2">
@@ -159,7 +152,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LB5-hC-DpA"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LB5-hC-DpA"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeZ-Xy-4ZN">
@@ -167,7 +160,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7F9-Vc-UBo"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7F9-Vc-UBo"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDW-wL-ckc">
@@ -175,7 +168,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rTp-gP-IKg"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rTp-gP-IKg"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -188,7 +181,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gVa-oN-Q5t"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gVa-oN-Q5t"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uPo-LS-mql">
@@ -196,7 +189,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hjh-Ra-lZs"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hjh-Ra-lZs"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPI-8D-vzH">
@@ -204,7 +197,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HGa-qB-0Me"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HGa-qB-0Me"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyX-oc-Une">
@@ -212,7 +205,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IEH-eE-X1t"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IEH-eE-X1t"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -225,7 +218,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kBp-el-0vM"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kBp-el-0vM"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7h-AL-Mai">
@@ -233,7 +226,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JCa-df-vAt"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JCa-df-vAt"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJc-SG-BtK">
@@ -241,7 +234,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SvI-DT-ODj"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SvI-DT-ODj"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ig6-rB-WSr">
@@ -249,7 +242,7 @@
                                                                 <state key="normal" image="uncheck"/>
                                                                 <state key="selected" image="check"/>
                                                                 <connections>
-                                                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A3t-yN-cdr"/>
+                                                                    <action selector="pressedCharacteristicButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A3t-yN-cdr"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -275,8 +268,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fqO-ag-it7" customClass="KDCircularProgress" customModule="KDCircularProgress">
                                 <rect key="frame" x="140" y="724" width="148" height="148"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeG-H8-80V">
-                                        <rect key="frame" x="53" y="64" width="42" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeG-H8-80V">
+                                        <rect key="frame" x="50" y="64" width="48" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -332,10 +325,9 @@
                         <outlet property="doneButton" destination="KdQ-Dl-eHH" id="33X-aN-LDx"/>
                         <outlet property="entrepreneurLabel" destination="xOi-Rt-1nd" id="0zf-6r-bcW"/>
                         <outlet property="integratorLabel" destination="QBa-HG-1yk" id="K3m-34-ohJ"/>
-                        <outlet property="newResultLabel" destination="PeG-H8-80V" id="8iW-g9-nJo"/>
                         <outlet property="nextButton" destination="Rgw-gF-W8V" id="psA-LZ-ra1"/>
+                        <outlet property="pointsLabel" destination="PeG-H8-80V" id="8iW-g9-nJo"/>
                         <outlet property="producerLabel" destination="jgg-aw-noo" id="uab-h1-1KF"/>
-                        <outlet property="resultLable" destination="5q1-Zk-zay" id="pWQ-un-kIr"/>
                         <outletCollection property="integratorButtons" destination="TJc-SG-BtK" collectionClass="NSMutableArray" id="jdj-PG-5A2"/>
                         <outletCollection property="integratorButtons" destination="xXU-cO-ZC8" collectionClass="NSMutableArray" id="yGL-c3-LKN"/>
                         <outletCollection property="integratorButtons" destination="l7h-AL-Mai" collectionClass="NSMutableArray" id="wh5-5g-LGu"/>
