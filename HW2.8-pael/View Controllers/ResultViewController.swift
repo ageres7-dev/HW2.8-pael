@@ -11,24 +11,12 @@ class ResultViewController: UIViewController {
     
     @IBOutlet var pictureResult: UIImageView!
     @IBOutlet var shortInfoLabel: UILabel!
-    
-//    @IBOutlet var producerLabel: UILabel!
-//    @IBOutlet var administratorLabel: UILabel!
-//    @IBOutlet var entrepreneurLabel: UILabel!
-//    @IBOutlet var integratorLabel: UILabel!
-    
     @IBOutlet var characteristicLabel: UILabel!
-    
     @IBOutlet var paelLabels: [UILabel]!
     
     //    var rawTestResult: Answer!
-    var rawTestResult = Answer(producer: 18, administrator: 27, entrepreneur: 34, integrator: 41)
-    
-//    var calculatedTestResult: String = ""
-//    var result = Result(shortInfo: "",
-//                                      picture: "",
-//                                      characteristic: "")
-    
+    var rawTestResult = Answer(producer: 40, administrator: 4, entrepreneur: 56, integrator: 20)
+ 
     var result: Result?
     var paelKey = ""
     
