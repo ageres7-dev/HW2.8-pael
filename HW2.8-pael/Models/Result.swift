@@ -9,9 +9,15 @@ struct Result {
     let shortInfo: String
     let picture: String
     let characteristic: String
+    
+    init(shortInfo: String = "", picture: String = "", characteristic: String = "") {
+        self.shortInfo = shortInfo
+        self.picture = picture
+        self.characteristic = characteristic
+    }
 }
 
-
+/*
 enum Paei: String {
     case largeP = "P"
     case smoleP = "p"
@@ -24,4 +30,4 @@ enum Paei: String {
     case smoleI = "i"
 }
 
-
+*/
