@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QOd-5m-Efi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
@@ -11,7 +11,7 @@
         <!--Navigation Controller-->
         <scene sceneID="P8U-dq-ClT">
             <objects>
-                <navigationController id="QOd-5m-Efi" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="resultScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QOd-5m-Efi" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VEa-Mu-lFd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -27,7 +27,7 @@
         <!--Result View Controller-->
         <scene sceneID="4fr-Ao-dJE">
             <objects>
-                <viewController storyboardIdentifier="resultScreen" id="RX4-OB-XN7" customClass="ResultViewController" customModule="HW2_8_pael" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RX4-OB-XN7" customClass="ResultViewController" customModule="HW2_8_pael" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e3u-cM-j5C">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,7 +119,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="default" width="84" height="122"/>
+        <image name="default" width="252" height="366"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

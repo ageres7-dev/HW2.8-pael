@@ -15,8 +15,8 @@ class ResultViewController: UIViewController {
     
     @IBOutlet var paelLabels: [UILabel]!
     
-    //    var rawTestResult: Answer!
-    var rawTestResult = Answer(producer: 40, administrator: 4, entrepreneur: 56, integrator: 2)
+    var rawTestResult: Answer!
+//    var rawTestResult = Answer(producer: 40, administrator: 4, entrepreneur: 56, integrator: 2)
     var paelKey = ""
     var result: Result?
     
