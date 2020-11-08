@@ -17,13 +17,6 @@ struct Result {
     }
 }
 
-
-//init(color: String = "", taste: String = "", radius: Double) {
-//    self.color = color
-//    self.taste = taste
-//    self.radius = radius
-//}
-
 enum Paei: String {
     case largeP = "P"
     case smoleP = "p"
@@ -35,5 +28,3 @@ enum Paei: String {
     case largeI = "I"
     case smoleI = "i"
 }
-
-

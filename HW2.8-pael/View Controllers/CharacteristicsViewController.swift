@@ -49,19 +49,10 @@ class CharacteristicsViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        //TODO !!
-//        guard let resultVC = segue.destination as?  else { return }
-//        resultVC.rawTestResult = answer
-        let navigationVC = segue.destination as! UINavigationController
-        
-       let resultVC = navigationVC.topViewController as! ResultViewController
+        let navigationController = segue.destination as! UINavigationController
+        let resultVC = navigationController.topViewController as! ResultViewController
         
         resultVC.rawTestResult = answer
-        
-//        guard let resultVC = segue.destination as? ResultViewController else {
-//                    return
-//                }
-//                resultVC.rawTestResult = answer
     }
     
     @IBAction func pressedCharacteristicButton(_ sender: UIButton) {
