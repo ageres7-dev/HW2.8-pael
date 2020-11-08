@@ -23,7 +23,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afo-Hb-9mt">
-                                <rect key="frame" x="98.5" y="475" width="178" height="36"/>
+                                <rect key="frame" x="16" y="475" width="343" height="69.5"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="afo-Hb-9mt" secondAttribute="height" multiplier="89:18" id="O2t-ko-Kc5"/>
@@ -55,7 +55,9 @@
                         <constraints>
                             <constraint firstItem="98B-Ka-bQS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="45Y-fb-MND"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="98B-Ka-bQS" secondAttribute="trailing" constant="16" id="9lW-7D-UWZ"/>
+                            <constraint firstItem="afo-Hb-9mt" firstAttribute="leading" secondItem="s49-lI-JKZ" secondAttribute="leading" id="DGN-HD-5kT"/>
                             <constraint firstItem="afo-Hb-9mt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dpi-ik-eRB"/>
+                            <constraint firstItem="s49-lI-JKZ" firstAttribute="leading" secondItem="98B-Ka-bQS" secondAttribute="leading" id="Hwf-Lv-CT5"/>
                             <constraint firstItem="s49-lI-JKZ" firstAttribute="top" secondItem="98B-Ka-bQS" secondAttribute="bottom" constant="40" id="LOy-5R-GuM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s49-lI-JKZ" secondAttribute="trailing" constant="16" id="T8o-A5-uhB"/>
                             <constraint firstItem="s49-lI-JKZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Vn2-0n-na8"/>
