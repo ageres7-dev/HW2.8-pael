@@ -23,6 +23,7 @@ class StartScreenViewController: UIViewController {
 
     }
 
-
+    @IBAction func unwind(segue: UIStoryboardSegue) {}
 }
+
 

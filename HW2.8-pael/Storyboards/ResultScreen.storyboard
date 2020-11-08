@@ -101,7 +101,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LHO-3N-l8C">
-                        <barButtonItem key="rightBarButtonItem" title="Я молодец!" style="done" id="WYf-N8-Zhw"/>
+                        <barButtonItem key="rightBarButtonItem" title="Я молодец!" style="done" id="WYf-N8-Zhw">
+                            <connections>
+                                <segue destination="scc-Yj-CXY" kind="unwind" unwindAction="unwindWithSegue:" id="2HT-fS-H7O"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="characteristicLabel" destination="3Wi-8n-xbm" id="DqX-8f-lLb"/>
@@ -114,12 +118,13 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MV8-Dz-ugC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="scc-Yj-CXY" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-151.875" y="92.957746478873247"/>
         </scene>
     </scenes>
     <resources>
-        <image name="default" width="252" height="366"/>
+        <image name="default" width="84" height="122"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

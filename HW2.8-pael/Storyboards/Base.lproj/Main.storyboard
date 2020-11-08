@@ -47,6 +47,9 @@
                                 <state key="normal" title=" Протестируй себя ">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Opp-3l-afG" kind="presentation" modalPresentationStyle="fullScreen" id="mzN-G5-jVz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -71,6 +74,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="349.60000000000002" y="68.815592203898049"/>
+        </scene>
+        <!--secondScreen-->
+        <scene sceneID="V30-8c-neQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Characteristics" referencedIdentifier="secondScreen" id="Opp-3l-afG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="51W-7I-A5K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1033" y="-59"/>
         </scene>
     </scenes>
     <resources>

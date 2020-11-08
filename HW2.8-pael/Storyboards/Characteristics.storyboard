@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x9J-zB-4Ta">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
@@ -11,7 +11,7 @@
         <!--Navigation Controller-->
         <scene sceneID="JeH-lu-0NX">
             <objects>
-                <navigationController id="x9J-zB-4Ta" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="secondScreen" id="x9J-zB-4Ta" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="xsS-h8-aBf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -366,6 +366,7 @@
                                 <state key="normal" title="Узнать результаты"/>
                                 <connections>
                                     <action selector="pressedDoneButton:" destination="9nj-9s-o7V" eventType="touchUpInside" id="yES-NO-aih"/>
+                                    <segue destination="qCi-wv-u7P" kind="show" id="r7N-st-QzX"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="баллов" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Okn-ge-bwr">
@@ -455,6 +456,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jEl-je-a75" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="547.5" y="-23.239436619718312"/>
+        </scene>
+        <!--resultScreen-->
+        <scene sceneID="dP0-ii-jJq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ResultScreen" referencedIdentifier="resultScreen" id="qCi-wv-u7P" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="O1L-vB-eto"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BL2-GV-VVB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1221" y="-85"/>
         </scene>
     </scenes>
     <resources>
