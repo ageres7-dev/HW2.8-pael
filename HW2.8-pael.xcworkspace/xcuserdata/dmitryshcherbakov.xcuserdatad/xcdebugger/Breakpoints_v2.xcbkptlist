@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "451708B9-E3C8-422E-A896-3DDFF97BD720"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9482A15-A66E-4A2F-A234-48A2BBCDEB63"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HW2.8-pael/View Controllers/CharacteristicsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "CharacteristicsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A9482A15-A66E-4A2F-A234-48A2BBCDEB63 - c437ae1f2fa485aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW2_8_pael.CharacteristicsViewController.(answer in _1C5C2CB08112AB81CE6571D7A3F91639).getter : HW2_8_pael.Answer"
+                  moduleName = "HW2.8-pael"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryshcherbakov/Desktop/myprojects/swift/learnmeetoo_swiftbook/2.16/Lesson%208/final/HW2.8-pael/HW2.8-pael/View%20Controllers/CharacteristicsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  uuid = "A9482A15-A66E-4A2F-A234-48A2BBCDEB63 - 5a431d1645fb1be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW2_8_pael.CharacteristicsViewController.(answer in _1C5C2CB08112AB81CE6571D7A3F91639).setter : HW2_8_pael.Answer"
+                  moduleName = "HW2.8-pael"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryshcherbakov/Desktop/myprojects/swift/learnmeetoo_swiftbook/2.16/Lesson%208/final/HW2.8-pael/HW2.8-pael/View%20Controllers/CharacteristicsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "A9482A15-A66E-4A2F-A234-48A2BBCDEB63 - 85e05a2f29b75c68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW2_8_pael.CharacteristicsViewController.(answer in _1C5C2CB08112AB81CE6571D7A3F91639).modify : HW2_8_pael.Answer"
+                  moduleName = "HW2.8-pael"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryshcherbakov/Desktop/myprojects/swift/learnmeetoo_swiftbook/2.16/Lesson%208/final/HW2.8-pael/HW2.8-pael/View%20Controllers/CharacteristicsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "A9482A15-A66E-4A2F-A234-48A2BBCDEB63 - fdf89d34b06b02b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW2_8_pael.CharacteristicsViewController.(answer in _1C5C2CB08112AB81CE6571D7A3F91639).modify : HW2_8_pael.Answer with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "HW2.8-pael"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryshcherbakov/Desktop/myprojects/swift/learnmeetoo_swiftbook/2.16/Lesson%208/final/HW2.8-pael/HW2.8-pael/View%20Controllers/CharacteristicsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "A9482A15-A66E-4A2F-A234-48A2BBCDEB63 - 6955d34c52590932"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW2_8_pael.CharacteristicsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HW2_8_pael.CharacteristicsViewController"
+                  moduleName = "HW2.8-pael"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryshcherbakov/Desktop/myprojects/swift/learnmeetoo_swiftbook/2.16/Lesson%208/final/HW2.8-pael/HW2.8-pael/View%20Controllers/CharacteristicsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "2118">
+               </Location>
+               <Location
+                  uuid = "A9482A15-A66E-4A2F-A234-48A2BBCDEB63 - f39173d783221370"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW2_8_pael.CharacteristicsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HW2_8_pael.CharacteristicsViewController&gt;"
+                  moduleName = "HW2.8-pael"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryshcherbakov/Desktop/myprojects/swift/learnmeetoo_swiftbook/2.16/Lesson%208/final/HW2.8-pael/HW2.8-pael/View%20Controllers/CharacteristicsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "2059">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
