@@ -16,7 +16,7 @@ class StartScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        firstMainPicture.layer.cornerRadius = 10
+        firstMainPicture.layer.cornerRadius = 20
         startButton.layer.cornerRadius = 10
         
         firstMainPicture.image = UIImage(named: "First screen")

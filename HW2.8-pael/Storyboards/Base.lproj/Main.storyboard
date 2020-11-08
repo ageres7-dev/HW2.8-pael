@@ -16,17 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="98B-Ka-bQS">
-                                <rect key="frame" x="16" y="20" width="343" height="200"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="98B-Ka-bQS">
+                                <rect key="frame" x="16" y="20" width="343" height="172"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="98B-Ka-bQS" secondAttribute="height" multiplier="343:200" id="lko-AN-Pgr"/>
+                                    <constraint firstAttribute="width" secondItem="98B-Ka-bQS" secondAttribute="height" multiplier="343:172" id="e3a-ze-wfg"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="OxJ-1t-4AD">
-                                <rect key="frame" x="16" y="240" width="343" height="183"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afo-Hb-9mt">
+                                <rect key="frame" x="98.5" y="475" width="178" height="36"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="OxJ-1t-4AD" secondAttribute="height" multiplier="343:183" id="Dw7-VL-yvD"/>
+                                    <constraint firstAttribute="width" secondItem="afo-Hb-9mt" secondAttribute="height" multiplier="89:18" id="O2t-ko-Kc5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title=" Протестируй себя ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="s49-lI-JKZ">
+                                <rect key="frame" x="16" y="232" width="343" height="203"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="s49-lI-JKZ" secondAttribute="height" multiplier="49:29" id="rzw-JW-d56"/>
                                 </constraints>
                                 <mutableString key="text">В своей книге "Идеальный руководитель" Ицхак Адизес утверждает, что у менеджмента есть четыре функции, от успешной реализации которых зависит благополучие организации. 
 4-е функции:
@@ -34,34 +45,24 @@
 - Администрирование (A) 
 - Предпринимательство (E) 
 - Интеграция (I)</mutableString>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afo-Hb-9mt">
-                                <rect key="frame" x="99" y="519" width="178" height="36"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title=" Протестируй себя ">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="afo-Hb-9mt" secondAttribute="trailing" constant="98" id="7gx-WM-RIE"/>
-                            <constraint firstItem="98B-Ka-bQS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7sU-yU-9GF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OxJ-1t-4AD" secondAttribute="trailing" constant="16" id="95Y-MB-5us"/>
-                            <constraint firstItem="afo-Hb-9mt" firstAttribute="top" secondItem="OxJ-1t-4AD" secondAttribute="bottom" constant="96" id="Bnn-BN-hPj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="98B-Ka-bQS" secondAttribute="trailing" constant="16" id="KmQ-Tx-Y3Z"/>
-                            <constraint firstItem="afo-Hb-9mt" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="178:667" id="N9Q-uw-Bo2"/>
-                            <constraint firstItem="afo-Hb-9mt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="TVQ-vp-aNF"/>
-                            <constraint firstItem="OxJ-1t-4AD" firstAttribute="top" secondItem="98B-Ka-bQS" secondAttribute="bottom" constant="20" id="WcS-JD-nlE"/>
-                            <constraint firstItem="OxJ-1t-4AD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="f1y-7n-Srd"/>
-                            <constraint firstItem="OxJ-1t-4AD" firstAttribute="top" secondItem="98B-Ka-bQS" secondAttribute="bottom" constant="20" id="hzl-GP-7ap"/>
-                            <constraint firstItem="98B-Ka-bQS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="tAY-9s-vw1"/>
+                            <constraint firstItem="98B-Ka-bQS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="45Y-fb-MND"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="98B-Ka-bQS" secondAttribute="trailing" constant="16" id="9lW-7D-UWZ"/>
+                            <constraint firstItem="afo-Hb-9mt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dpi-ik-eRB"/>
+                            <constraint firstItem="s49-lI-JKZ" firstAttribute="top" secondItem="98B-Ka-bQS" secondAttribute="bottom" constant="40" id="LOy-5R-GuM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s49-lI-JKZ" secondAttribute="trailing" constant="16" id="T8o-A5-uhB"/>
+                            <constraint firstItem="s49-lI-JKZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Vn2-0n-na8"/>
+                            <constraint firstItem="s49-lI-JKZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZRe-c0-o6H"/>
+                            <constraint firstItem="afo-Hb-9mt" firstAttribute="top" secondItem="s49-lI-JKZ" secondAttribute="bottom" constant="40" id="ceS-nf-G2g"/>
+                            <constraint firstItem="98B-Ka-bQS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mMO-ab-TDX"/>
+                            <constraint firstItem="98B-Ka-bQS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="wDQ-nd-3nD"/>
                         </constraints>
                     </view>
                     <connections>
@@ -75,9 +76,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
