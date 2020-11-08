@@ -9,7 +9,7 @@ struct Result {
     let shortInfo: String
     let picture: String
     let characteristic: String
-    
+
     init(shortInfo: String = "", picture: String = "", characteristic: String = "") {
         self.shortInfo = shortInfo
         self.picture = picture
@@ -17,7 +17,13 @@ struct Result {
     }
 }
 
-/*
+
+//init(color: String = "", taste: String = "", radius: Double) {
+//    self.color = color
+//    self.taste = taste
+//    self.radius = radius
+//}
+
 enum Paei: String {
     case largeP = "P"
     case smoleP = "p"
@@ -30,4 +36,4 @@ enum Paei: String {
     case smoleI = "i"
 }
 
-*/
+
