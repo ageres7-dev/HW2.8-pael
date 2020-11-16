@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		3B02B06925570847007B5778 /* ResultFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02B06725570846007B5778 /* ResultFunction.swift */; };
 		3B02B06A25570847007B5778 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02B06825570846007B5778 /* Answer.swift */; };
-		3B02B06D25570A22007B5778 /* ResultScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B02B06C25570A22007B5778 /* ResultScreen.storyboard */; };
 		3B02B07425570AD8007B5778 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02B07325570AD8007B5778 /* ResultViewController.swift */; };
 		3B78C1E725574609005823E8 /* CharacteristicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B78C1E625574609005823E8 /* CharacteristicsViewController.swift */; };
-		3B78C1EA255746A0005823E8 /* Characteristics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B78C1E9255746A0005823E8 /* Characteristics.storyboard */; };
 		3BA49AB32557DC980092202F /* CharacteristicBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA49AB22557DC980092202F /* CharacteristicBlock.swift */; };
 		3BBDB38725556A8900F0B765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDB38625556A8900F0B765 /* AppDelegate.swift */; };
 		3BBDB38925556A8900F0B765 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDB38825556A8900F0B765 /* SceneDelegate.swift */; };
@@ -29,10 +27,8 @@
 		16D6B13943F050E6D0C628F9 /* Pods-HW2.8-pael.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW2.8-pael.debug.xcconfig"; path = "Target Support Files/Pods-HW2.8-pael/Pods-HW2.8-pael.debug.xcconfig"; sourceTree = "<group>"; };
 		3B02B06725570846007B5778 /* ResultFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultFunction.swift; sourceTree = "<group>"; };
 		3B02B06825570846007B5778 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
-		3B02B06C25570A22007B5778 /* ResultScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResultScreen.storyboard; sourceTree = "<group>"; };
 		3B02B07325570AD8007B5778 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		3B78C1E625574609005823E8 /* CharacteristicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicsViewController.swift; sourceTree = "<group>"; };
-		3B78C1E9255746A0005823E8 /* Characteristics.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Characteristics.storyboard; sourceTree = "<group>"; };
 		3BA49AB22557DC980092202F /* CharacteristicBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicBlock.swift; sourceTree = "<group>"; };
 		3BBDB38325556A8900F0B765 /* HW2.8-pael.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW2.8-pael.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBDB38625556A8900F0B765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,8 +140,6 @@
 			children = (
 				3BBDB38C25556A8900F0B765 /* Main.storyboard */,
 				3BBDB39125556A8C00F0B765 /* LaunchScreen.storyboard */,
-				3B78C1E9255746A0005823E8 /* Characteristics.storyboard */,
-				3B02B06C25570A22007B5778 /* ResultScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -217,9 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B78C1EA255746A0005823E8 /* Characteristics.storyboard in Resources */,
 				3BBDB39325556A8C00F0B765 /* LaunchScreen.storyboard in Resources */,
-				3B02B06D25570A22007B5778 /* ResultScreen.storyboard in Resources */,
 				3BBDB39025556A8C00F0B765 /* Assets.xcassets in Resources */,
 				3BBDB38E25556A8900F0B765 /* Main.storyboard in Resources */,
 			);

@@ -8,7 +8,7 @@
 struct Result {
     let shortInfo: String
     let picture: String
-    let characteristic: String
+    var characteristic: String
 
     init(shortInfo: String = "", picture: String = "", characteristic: String = "") {
         self.shortInfo = shortInfo
