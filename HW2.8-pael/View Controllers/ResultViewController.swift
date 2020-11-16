@@ -11,7 +11,9 @@ class ResultViewController: UIViewController {
     
     @IBOutlet var pictureResult: UIImageView!
     @IBOutlet var shortInfoLabel: UILabel!
-    @IBOutlet var characteristicLabel: UILabel!
+//    @IBOutlet var characteristicLabel: UILabel!
+    
+    @IBOutlet var characteristicTextView: UITextView!
     
     @IBOutlet var paelLabels: [UILabel]!
     
@@ -28,9 +30,13 @@ class ResultViewController: UIViewController {
         result = Result.getResult(text: paelKey)
         
         shortInfoLabel.text = result?.shortInfo
-        characteristicLabel.text = result?.characteristic
+        characteristicTextView.text = result?.characteristic
         pictureResult.image = UIImage(named: result?.picture ?? "default")
         setPaelLabels(from: paelKey)
+        
+        navigationItem.title = result?.shortInfo
+        navigationItem.largeTitleDisplayMode = .never
+        navigationItem.hidesBackButton = true
         
     }
     

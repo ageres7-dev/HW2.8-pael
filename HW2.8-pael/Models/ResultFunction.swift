@@ -211,7 +211,7 @@ extension Result {
         
         return Result(shortInfo: key,
                       picture: "default",
-                      characteristic: "\(pCharacteristic)\n\(aCharacteristic)\n\(eCharacteristic)\n\(iCharacteristic)")
+                      characteristic: "\(pCharacteristic)\n\n\(aCharacteristic)\n\n\(eCharacteristic)\n\n\(iCharacteristic)")
         
     }
     
