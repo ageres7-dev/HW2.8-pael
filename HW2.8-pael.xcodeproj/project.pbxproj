@@ -20,6 +20,7 @@
 		3BBDB39325556A8C00F0B765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBDB39125556A8C00F0B765 /* LaunchScreen.storyboard */; };
 		3BBDB3A225556D0D00F0B765 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDB3A125556D0D00F0B765 /* DataManager.swift */; };
 		3BBDB3A925556D9100F0B765 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDB3A825556D9100F0B765 /* Result.swift */; };
+		A5AE8F58257AD07C000C627B /* ManagementStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AE8F57257AD07C000C627B /* ManagementStyleCell.swift */; };
 		E2B1F8DB48155140F1771710 /* Pods_HW2_8_pael.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20F668AB79CC93D772088C7 /* Pods_HW2_8_pael.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		3BBDB39425556A8C00F0B765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BBDB3A125556D0D00F0B765 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		3BBDB3A825556D9100F0B765 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A5AE8F57257AD07C000C627B /* ManagementStyleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementStyleCell.swift; sourceTree = "<group>"; };
 		B20F668AB79CC93D772088C7 /* Pods_HW2_8_pael.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HW2_8_pael.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5351D84488C574C3DAD5A62 /* Pods-HW2.8-pael.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW2.8-pael.release.xcconfig"; path = "Target Support Files/Pods-HW2.8-pael/Pods-HW2.8-pael.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				3BBDB38A25556A8900F0B765 /* StartScreenViewController.swift */,
+				A5AE8F57257AD07C000C627B /* ManagementStyleCell.swift */,
 				3B78C1E625574609005823E8 /* CharacteristicsViewController.swift */,
 				3B02B07325570AD8007B5778 /* ResultViewController.swift */,
 			);
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AE8F58257AD07C000C627B /* ManagementStyleCell.swift in Sources */,
 				3BBDB3A925556D9100F0B765 /* Result.swift in Sources */,
 				3B02B06925570847007B5778 /* ResultFunction.swift in Sources */,
 				3BBDB38B25556A8900F0B765 /* StartScreenViewController.swift in Sources */,

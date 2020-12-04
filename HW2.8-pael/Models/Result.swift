@@ -17,14 +17,14 @@ struct Result {
     }
 }
 
-enum Paei: String {
-    case largeP = "P"
-    case smoleP = "p"
-    case dash = "-"
-    case largeA = "A"
-    case smoleA = "a"
-    case largeE = "E"
-    case smoleE = "e"
-    case largeI = "I"
-    case smoleI = "i"
-}
+//enum Paei: String {
+//    case largeP = "P"
+//    case smoleP = "p"
+//    case dash = "-"
+//    case largeA = "A"
+//    case smoleA = "a"
+//    case largeE = "E"
+//    case smoleE = "e"
+//    case largeI = "I"
+//    case smoleI = "i"
+//}
