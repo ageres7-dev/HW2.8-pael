@@ -10,7 +10,7 @@ import UIKit
 class ResultViewController: UIViewController {
     
     @IBOutlet var pictureResult: UIImageView!
-    @IBOutlet var shortInfoLabel: UILabel!
+//    @IBOutlet var shortInfoLabel: UILabel!
 //    @IBOutlet var characteristicLabel: UILabel!
     
     @IBOutlet var characteristicTextView: UITextView!
@@ -29,7 +29,7 @@ class ResultViewController: UIViewController {
         paelKey = calulateResultTest(from: rawTestResult)
         result = Result.getResult(text: paelKey)
         
-        shortInfoLabel.text = result?.shortInfo
+//        shortInfoLabel.text = result?.shortInfo
         characteristicTextView.text = result?.characteristic
         pictureResult.image = UIImage(named: result?.picture ?? "default")
         setPaelLabels(from: paelKey)
